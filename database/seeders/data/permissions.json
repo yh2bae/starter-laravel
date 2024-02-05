@@ -1,0 +1,104 @@
+[
+    {
+        "name": "Profile",
+        "roles": ["superadmin", "admin", "user"],
+        "module_name": "Profil",
+        "default_permission": "yes"
+    },
+    {
+        "name": "Profile Update",
+        "roles": ["superadmin", "admin", "user"],
+        "module_name": "Profil",
+        "default_permission": "yes"
+    },
+    {
+        "name": "Role",
+        "roles": ["superadmin"],
+        "module_name": "Role",
+        "default_permission": "yes"
+    },
+    {
+        "name": "Role Store",
+        "roles": ["superadmin"],
+        "module_name": "Role",
+        "default_permission": "yes"
+    },
+    {
+        "name": "Role Update",
+        "roles": ["superadmin"],
+        "module_name": "Role",
+        "default_permission": "yes"
+    },
+    {
+        "name": "Role Show",
+        "roles": ["superadmin"],
+        "module_name": "Role",
+        "default_permission": "yes"
+    },
+    {
+        "name": "Role Destroy",
+        "roles": ["superadmin"],
+        "module_name": "Role",
+        "default_permission": "yes"
+    },
+    {
+        "name": "Permission",
+        "roles": ["superadmin"],
+        "module_name": "Permission",
+        "default_permission": "yes"
+    },
+    {
+        "name": "Permission Store",
+        "roles": ["superadmin"],
+        "module_name": "Permission",
+        "default_permission": "yes"
+    },
+    {
+        "name": "Permission Update",
+        "roles": ["superadmin"],
+        "module_name": "Permission",
+        "default_permission": "yes"
+    },
+    {
+        "name": "Permission Show",
+        "roles": ["superadmin"],
+        "module_name": "Permission",
+        "default_permission": "yes"
+    },
+    {
+        "name": "Permission Destroy",
+        "roles": ["superadmin"],
+        "module_name": "Permission",
+        "default_permission": "yes"
+    },
+    {
+        "name": "Users",
+        "roles": ["superadmin"],
+        "module_name": "Users",
+        "default_permission": "yes"
+    },
+    {
+        "name": "Users Store",
+        "roles": ["superadmin"],
+        "module_name": "Users",
+        "default_permission": "yes"
+    },
+    {
+        "name": "Users Update",
+        "roles": ["superadmin"],
+        "module_name": "Users",
+        "default_permission": "yes"
+    },
+    {
+        "name": "Users Show",
+        "roles": ["superadmin"],
+        "module_name": "Users",
+        "default_permission": "yes"
+    },
+    {
+        "name": "Users Destroy",
+        "roles": ["superadmin"],
+        "module_name": "Users",
+        "default_permission": "yes"
+    }
+]
