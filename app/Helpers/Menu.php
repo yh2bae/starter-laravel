@@ -11,6 +11,7 @@ class MenuHelper
                 'label' => 'Dashboard',
                 'icon' => 'tf-icons mdi mdi-home-outline',
                 'route' => 'dashboard',
+                'uri_segment' => 'dashboard',
             ],
             // //submenu
             // [
@@ -42,12 +43,14 @@ class MenuHelper
                 'icon' => 'tf-icons mdi mdi-account-key-outline',
                 'route' => 'permissions.index',
                 'permission' => 'Permission',
+                'uri_segment' => 'permissions',
             ],
             [
                 'label' => 'Roles',
                 'icon' => 'tf-icons mdi mdi-account-check-outline',
                 'route' => 'roles.index',
                 'permission' => 'Role',
+                'uri_segment' => 'roles',
             ],
             [
                 'header' => true,
@@ -59,6 +62,7 @@ class MenuHelper
                 'icon' => 'tf-icons mdi mdi-account-multiple-outline',
                 'route' => 'users.index',
                 'permission' => 'Users',
+                'uri_segment' => 'users',
             ],
             [
                 'label' => 'Profile Settings',
